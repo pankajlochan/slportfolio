@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  /* background-color: #c6e7e2; */
+}
+
+.top-container h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color:#25B2E1;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* line-height: 2; */
+}
+
+.top-container p {
+  font-size: 30px;
+  font-weight: normal;
+  color: #25B2E1;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 115px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background: url('/img/banner.jpg') no-repeat center center/cover;
+}
+
+.middle-container {
+  padding-top: 40px;
+  background-color: #c6e7e2;
+}
+
+.middle-container h2 {
+  color: #11999e;
+}
+
+.skill-row h3 {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row a {
+  text-decoration: none;
+  color: grey;
+}
+
+.profile img {
+  margin-top: 30px;
+  max-width: 150px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.img-programing {
+  max-width: 23%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-gaming {
+  max-width: 23%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.img-reading {
+  max-width: 23%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+  
+}
+
+.quote {
+  padding-bottom: 20px;
+}
+
+hr {
+  /* top | right | bottom | left */
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: auto auto 70px auto;
+}
+
+.skills h2 {
+  font-size: 35px;
+  color: #11999e;
+  font-weight: normal;
+}
+
+.contact-me h2 {
+  font-size: 30px;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-container {
+  /* margin-top: 50px; */
+  background-color: #66bfbf;
+  height: 150px;
+}
+
+.bottom-container a {
+  text-decoration: none;
+  padding: 25px;
+  color: #bbeff0;
+  font-weight: normal;
+}
+
+.footer-links {
+  padding-top: 40px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #11cdd4;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: #008b8b;
+  background-color: #8fdee0;
+}
+

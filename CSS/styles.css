@@ -29,7 +29,7 @@ body {
 .top-container {
   position: relative;
   padding-top: 100px;
-  background: url('/img/banner.jpg') no-repeat center center/cover;
+  background: url('../img/banner.jpg') no-repeat center center/cover;
 }
 
 .middle-container {
